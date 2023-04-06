@@ -8,7 +8,7 @@
 #import <XCTest/XCTest.h>
 #import <NeuralNetworkToolkit/NeuralNetworkToolkit.h>
 
-@interface NeuralNetworkToolkitTests : XCTestCase <NNTKActivationFunction>
+@interface NeuralNetworkToolkitTests : XCTestCase
 
 @end
 
@@ -29,9 +29,11 @@
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
-    NNTKNeuralNetwork* network = NULL;
+    id<NNTKActivationFunction> func = [[NNTKSigmoidActivationFunction alloc] init];
+    NNTKNeuralNetwork* network = [[NNTKNeuralNetwork alloc] initWithInputDimension:8 outputDimension: 2 outputActivation:func];
     [self measureBlock:^{
-        // Put the code you want to measure the time of here.
+        NSLog(@"bruh moment");
+        [network addHiddenLayer:25 activationFunction:func];
     }];
 }
 

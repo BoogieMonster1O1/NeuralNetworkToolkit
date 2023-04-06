@@ -6,12 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "NNTKActivationFunction.h"
-#import "NNTKReLUActivationFunction.h"
-#import "NNTKSigmoidActivationFunction.h"
-#import "NNTKTanhActivationFunction.h"
-#import "NNTKLayer.h"
-#import "NNTKNeuralNetwork.h"
+#import <NeuralNetworkToolkit/NNTKActivationFunction.h>
+#import <NeuralNetworkToolkit/NNTKReLUActivationFunction.h>
+#import <NeuralNetworkToolkit/NNTKSigmoidActivationFunction.h>
+#import <NeuralNetworkToolkit/NNTKTanhActivationFunction.h>
+#import <NeuralNetworkToolkit/NNTKLayer.h>
+#import <NeuralNetworkToolkit/NNTKNeuralNetwork.h>
 
 //! Project version number for NeuralNetworkToolkit.
 FOUNDATION_EXPORT double NeuralNetworkToolkitVersionNumber;
