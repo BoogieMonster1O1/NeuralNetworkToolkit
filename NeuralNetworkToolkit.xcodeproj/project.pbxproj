@@ -11,13 +11,17 @@
 		64C7050429DEFE85000948C7 /* NeuralNetworkToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C704F929DEFE84000948C7 /* NeuralNetworkToolkit.framework */; };
 		64C7050929DEFE85000948C7 /* NeuralNetworkToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7050829DEFE85000948C7 /* NeuralNetworkToolkitTests.m */; };
 		64C7050A29DEFE85000948C7 /* NeuralNetworkToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C704FC29DEFE84000948C7 /* NeuralNetworkToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64C7051529DEFEDC000948C7 /* NNTKActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051429DEFEDC000948C7 /* NNTKActivationFunction.h */; };
-		64C7051829DEFEFA000948C7 /* NNTKReLUActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051629DEFEFA000948C7 /* NNTKReLUActivationFunction.h */; };
+		64C7051529DEFEDC000948C7 /* NNTKActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051429DEFEDC000948C7 /* NNTKActivationFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C7051829DEFEFA000948C7 /* NNTKReLUActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051629DEFEFA000948C7 /* NNTKReLUActivationFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C7051929DEFEFA000948C7 /* NNTKReLUActivationFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7051729DEFEFA000948C7 /* NNTKReLUActivationFunction.m */; };
-		64C7051C29DEFF20000948C7 /* NNTKSigmoidActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051A29DEFF20000948C7 /* NNTKSigmoidActivationFunction.h */; };
+		64C7051C29DEFF20000948C7 /* NNTKSigmoidActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051A29DEFF20000948C7 /* NNTKSigmoidActivationFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C7051D29DEFF20000948C7 /* NNTKSigmoidActivationFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7051B29DEFF20000948C7 /* NNTKSigmoidActivationFunction.m */; };
-		64C7052029DEFF44000948C7 /* NNTKTanhActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051E29DEFF44000948C7 /* NNTKTanhActivationFunction.h */; };
+		64C7052029DEFF44000948C7 /* NNTKTanhActivationFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7051E29DEFF44000948C7 /* NNTKTanhActivationFunction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64C7052129DEFF44000948C7 /* NNTKTanhActivationFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7051F29DEFF44000948C7 /* NNTKTanhActivationFunction.m */; };
+		64C7052C29DF0340000948C7 /* NNTKLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7052A29DF0340000948C7 /* NNTKLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C7052D29DF0340000948C7 /* NNTKLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7052B29DF0340000948C7 /* NNTKLayer.m */; };
+		64C7053029DF036D000948C7 /* NNTKNeuralNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C7052E29DF036D000948C7 /* NNTKNeuralNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C7053129DF036D000948C7 /* NNTKNeuralNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7052F29DF036D000948C7 /* NNTKNeuralNetwork.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		64C7051B29DEFF20000948C7 /* NNTKSigmoidActivationFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTKSigmoidActivationFunction.m; sourceTree = "<group>"; };
 		64C7051E29DEFF44000948C7 /* NNTKTanhActivationFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTKTanhActivationFunction.h; sourceTree = "<group>"; };
 		64C7051F29DEFF44000948C7 /* NNTKTanhActivationFunction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTKTanhActivationFunction.m; sourceTree = "<group>"; };
+		64C7052A29DF0340000948C7 /* NNTKLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTKLayer.h; sourceTree = "<group>"; };
+		64C7052B29DF0340000948C7 /* NNTKLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTKLayer.m; sourceTree = "<group>"; };
+		64C7052E29DF036D000948C7 /* NNTKNeuralNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTKNeuralNetwork.h; sourceTree = "<group>"; };
+		64C7052F29DF036D000948C7 /* NNTKNeuralNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTKNeuralNetwork.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 				64C7051B29DEFF20000948C7 /* NNTKSigmoidActivationFunction.m */,
 				64C7051E29DEFF44000948C7 /* NNTKTanhActivationFunction.h */,
 				64C7051F29DEFF44000948C7 /* NNTKTanhActivationFunction.m */,
+				64C7052A29DF0340000948C7 /* NNTKLayer.h */,
+				64C7052B29DF0340000948C7 /* NNTKLayer.m */,
+				64C7052E29DF036D000948C7 /* NNTKNeuralNetwork.h */,
+				64C7052F29DF036D000948C7 /* NNTKNeuralNetwork.m */,
 			);
 			path = NeuralNetworkToolkit;
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 				64C7052029DEFF44000948C7 /* NNTKTanhActivationFunction.h in Headers */,
 				64C7051C29DEFF20000948C7 /* NNTKSigmoidActivationFunction.h in Headers */,
 				64C7051829DEFEFA000948C7 /* NNTKReLUActivationFunction.h in Headers */,
+				64C7052C29DF0340000948C7 /* NNTKLayer.h in Headers */,
 				64C7050A29DEFE85000948C7 /* NeuralNetworkToolkit.h in Headers */,
+				64C7053029DF036D000948C7 /* NNTKNeuralNetwork.h in Headers */,
 				64C7051529DEFEDC000948C7 /* NNTKActivationFunction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +234,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C7053129DF036D000948C7 /* NNTKNeuralNetwork.m in Sources */,
+				64C7052D29DF0340000948C7 /* NNTKLayer.m in Sources */,
 				64C7051929DEFEFA000948C7 /* NNTKReLUActivationFunction.m in Sources */,
 				64C7052129DEFF44000948C7 /* NNTKTanhActivationFunction.m in Sources */,
 				64C704FE29DEFE84000948C7 /* NeuralNetworkToolkit.docc in Sources */,

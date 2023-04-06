@@ -10,6 +10,8 @@
 #import "NNTKReLUActivationFunction.h"
 #import "NNTKSigmoidActivationFunction.h"
 #import "NNTKTanhActivationFunction.h"
+#import "NNTKLayer.h"
+#import "NNTKNeuralNetwork.h"
 
 //! Project version number for NeuralNetworkToolkit.
 FOUNDATION_EXPORT double NeuralNetworkToolkitVersionNumber;
