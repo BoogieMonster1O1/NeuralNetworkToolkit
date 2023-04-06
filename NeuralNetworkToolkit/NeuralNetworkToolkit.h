@@ -6,6 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NNTKActivationFunction.h"
+#import "NNTKReLUActivationFunction.h"
+#import "NNTKSigmoidActivationFunction.h"
+#import "NNTKTanhActivationFunction.h"
 
 //! Project version number for NeuralNetworkToolkit.
 FOUNDATION_EXPORT double NeuralNetworkToolkitVersionNumber;
@@ -14,5 +18,3 @@ FOUNDATION_EXPORT double NeuralNetworkToolkitVersionNumber;
 FOUNDATION_EXPORT const unsigned char NeuralNetworkToolkitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <NeuralNetworkToolkit/PublicHeader.h>
-
-
