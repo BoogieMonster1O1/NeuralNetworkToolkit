@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64AC142F29DF2CAD00A7526F /* NNTKBackPropagator.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AC142D29DF2CAD00A7526F /* NNTKBackPropagator.h */; };
+		64AC143029DF2CAD00A7526F /* NNTKBackPropagator.m in Sources */ = {isa = PBXBuildFile; fileRef = 64AC142E29DF2CAD00A7526F /* NNTKBackPropagator.m */; };
 		64C704FE29DEFE84000948C7 /* NeuralNetworkToolkit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 64C704FD29DEFE84000948C7 /* NeuralNetworkToolkit.docc */; };
 		64C7050429DEFE85000948C7 /* NeuralNetworkToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C704F929DEFE84000948C7 /* NeuralNetworkToolkit.framework */; };
 		64C7050929DEFE85000948C7 /* NeuralNetworkToolkitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C7050829DEFE85000948C7 /* NeuralNetworkToolkitTests.m */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64AC142D29DF2CAD00A7526F /* NNTKBackPropagator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNTKBackPropagator.h; sourceTree = "<group>"; };
+		64AC142E29DF2CAD00A7526F /* NNTKBackPropagator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNTKBackPropagator.m; sourceTree = "<group>"; };
 		64C704F929DEFE84000948C7 /* NeuralNetworkToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NeuralNetworkToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C704FC29DEFE84000948C7 /* NeuralNetworkToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NeuralNetworkToolkit.h; sourceTree = "<group>"; };
 		64C704FD29DEFE84000948C7 /* NeuralNetworkToolkit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NeuralNetworkToolkit.docc; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				64C7052B29DF0340000948C7 /* NNTKLayer.m */,
 				64C7052E29DF036D000948C7 /* NNTKNeuralNetwork.h */,
 				64C7052F29DF036D000948C7 /* NNTKNeuralNetwork.m */,
+				64AC142D29DF2CAD00A7526F /* NNTKBackPropagator.h */,
+				64AC142E29DF2CAD00A7526F /* NNTKBackPropagator.m */,
 			);
 			path = NeuralNetworkToolkit;
 			sourceTree = "<group>";
@@ -132,6 +138,7 @@
 				64C7051829DEFEFA000948C7 /* NNTKReLUActivationFunction.h in Headers */,
 				64C7052C29DF0340000948C7 /* NNTKLayer.h in Headers */,
 				64C7050A29DEFE85000948C7 /* NeuralNetworkToolkit.h in Headers */,
+				64AC142F29DF2CAD00A7526F /* NNTKBackPropagator.h in Headers */,
 				64C7053029DF036D000948C7 /* NNTKNeuralNetwork.h in Headers */,
 				64C7051529DEFEDC000948C7 /* NNTKActivationFunction.h in Headers */,
 			);
@@ -239,6 +246,7 @@
 				64C7051929DEFEFA000948C7 /* NNTKReLUActivationFunction.m in Sources */,
 				64C7052129DEFF44000948C7 /* NNTKTanhActivationFunction.m in Sources */,
 				64C704FE29DEFE84000948C7 /* NeuralNetworkToolkit.docc in Sources */,
+				64AC143029DF2CAD00A7526F /* NNTKBackPropagator.m in Sources */,
 				64C7051D29DEFF20000948C7 /* NNTKSigmoidActivationFunction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
